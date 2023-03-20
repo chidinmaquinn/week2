@@ -1,0 +1,88 @@
+<!DOCTYPE <html>
+<head>
+    <title>WEB DESIGNING</title>
+            <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+          * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #dcdcdc;
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    place-items: center;
+}
+form{
+    width: min(90%, 23.4375rem);
+}
+    input, select{
+        width: 100%;
+         padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #sec1{
+        color: #000;
+        text-align: left;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        color: #fff;
+        padding: 14px 20px;
+        margin: 8px 0;
+        background-color: #000;
+        border-radius: 4px;
+        cursor: pointer;
+}
+    input[type=submit]:hover {
+        border: 2px solid black;
+        color: #000;
+        background-color: #dcdcdc;
+  }
+  div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+  }
+</style>
+<!-- Style the form created in week one, improve on the field margins, 
+    line spacing, bg color, and any other creative improvements 
+Deploy your website and send the link of the live site as a submission method . 
+-->
+<h1 class="title">SIDE HUSTLE REGISTRATION FORM</h1>
+<FORM>
+    <div id="sec1">
+            <label for="first name">NAME:</label>
+        <input type="text" name="enter name" id="enter name"><br><br>
+        <label for="name">PHONE NUMBER:</label>
+    
+        <input type="phone number" name="your number" id="enter name"><br><br>
+        <label for="name">EMAIL:</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="checkbox">GENDER:</label>
+        <select id="checkbox">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option><br><br>
+    </select>
+    <label for="password">PASSWORD:</label>
+        <input type="password" id=" PASSWORD"><br><br>
+    </div>
+    <input type="submit" value="submit">
+    
+      </FORM>
+       </body>
+</body>
+</html>
